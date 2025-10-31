@@ -1,0 +1,20 @@
+{
+  "name": "odin-project---knight-travails",
+  "version": "1.0.0",
+  "description": "This repository contains the Knight's Travails assignment from The Odin Project (JavaScript course). The goal is to find the shortest sequence of knight moves on a standard 8×8 chessboard between two squares.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RommelMabiniJr/ODIN-PROJECT---Knight-Travails.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RommelMabiniJr/ODIN-PROJECT---Knight-Travails/issues"
+  },
+  "homepage": "https://github.com/RommelMabiniJr/ODIN-PROJECT---Knight-Travails#readme"
+}
