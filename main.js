@@ -1,10 +1,9 @@
-import { BFS_recursive, valExists } from "./modules/BFS.js";
-import { knightPosition } from "./modules/Knight.js";
+import { BFS_iterative, BFS_nonrecursive } from "./modules/BFS.js";
+import { printPath } from "./utils/print.js";
 
-const test = knightPosition(7, 7);
-console.log(test.getPossiblePositions());
-// console.log([1,2 ] == [1, 2]);
-// console.log(valExists([3,3], [[2,1],[3,2],[3,2]]))
-
-console.log(BFS_recursive([7,7], [4,4]));
-// console.log(BFS_recursive([4,4], [7,7]));
+// console.log([].length);
+// const pos = BFS_nonrecursive([0,0], [1,2]);
+// const pos = BFS_nonrecursive([0,0], [3,3]);
+// const pos = BFS_nonrecursive([3,3], [0,0]);
+const pos = BFS_iterative([0,0], [7,7]);
+printPath(pos);
